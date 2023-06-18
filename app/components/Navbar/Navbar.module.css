@@ -1,0 +1,19 @@
+.container {
+    margin: 10px auto;
+    width: calc(100vw - 30px);
+    border-radius: 5px;
+    padding: 10px 15px;
+    background: #393E46;
+    position: sticky;
+    top: 10px;
+}
+
+.verticalView{
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+}
